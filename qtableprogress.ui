@@ -14,18 +14,26 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>110</y>
-      <width>251</width>
-      <height>61</height>
+      <x>10</x>
+      <y>10</y>
+      <width>241</width>
+      <height>141</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Open window</string>
+    <property name="rowCount">
+     <number>3</number>
     </property>
+    <property name="columnCount">
+     <number>2</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
